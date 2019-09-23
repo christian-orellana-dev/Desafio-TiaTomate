@@ -1,0 +1,12 @@
+.nosotros_header {
+    height: 250px;
+    background-color: $jelly_bean;
+    color: $white;
+
+    &__logo {
+    padding-top: 80px;
+    text-align: center;
+    font-size: $x-large;
+    font-weight: $bold; 
+    }
+}

@@ -1,0 +1,72 @@
+.header {
+
+    &__titulo {
+        background-color: $jelly_bean;
+        width: auto;    
+        // height: 100vh;
+        text-align: center;
+        margin: 0px auto;
+        padding: 15% 25% 15% 26%;
+        line-height: 1;
+    
+        &-claro h2{
+            color: $snow;
+            font-size: $x-large;
+            font-weight: $extra-light;
+        }
+        &-oscuro h2{
+            color: $white;
+            font-size: $x-large;
+            font-weight: $bold;
+        }
+    
+    }
+
+    &__caracteristicas {
+        background-color: $taupe_grey;
+        width: auto;    
+        text-align: center;
+
+        &__contenido {
+            padding: 6% 12% 5% 14%;
+
+            &__texto h4 {
+                color: $white;
+                padding: 3% 14% 3% 15%;
+                text-align: center;
+                font-size: 38px;
+                font-weight: $bold;
+            }
+            &__texto p {
+                color: $white;
+                padding: 1% 20% 1% 20%;
+                font-size: 15px;
+                text-align: left;
+            }
+        }
+    }
+
+    &__origen {
+        background-color: $snow;
+        width: auto;
+        text-align: center;
+    
+        &__contenido {
+            padding: 6% 12% 10% 14%;
+
+            &__texto h4 {
+                color: $granity_white;
+                padding: 0% 14% 1% 15%;
+                text-align: center;
+                font-size: 38px;
+                font-weight: $bold;
+            }
+            &__texto p {
+                color: $taupe_grey;
+                padding: 1% 25% 1% 25%;
+                font-size: 15px;
+                text-align: left;
+            }
+        }
+    }
+}

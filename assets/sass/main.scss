@@ -1,0 +1,47 @@
+// sass/
+// |
+@import 'abstracts/variables';
+// |– base/
+@import 'base/base';
+@import 'base/reset';
+@import 'base/typography';
+// |   …                    # Etc.
+// |
+// |– components/
+// |   |– _buttons.scss     # Botones
+// |   |– _carousel.scss    # Carousel
+// |   |– _cover.scss       # Cubierta
+// |   |– _dropdown.scss    # Dropdown
+// |   …                    # Etc.
+// |
+// |– layout/
+@import 'layout/nav';
+// |   |– _grid.scss        # Sistema de retícula
+@import 'layout/header';
+@import 'layout/nosotros';
+// |   |– _sidebar.scss     # Barra lateral
+// |   |– _forms.scss       # Formularios
+// |   …                    # Etc.
+// |
+// |– pages/
+// |   |– _home.scss        # Estilos específicos para la página de inicio
+// |   |– _contact.scss     # Estilos específicos para la página de contacto
+// |   …                    # Etc.
+// |
+// |– themes/
+// |   |– _theme.scss       # Tema por defecto
+// |   |– _admin.scss       # Tema del administrador
+// |   …                    # Etc.
+// |
+// |– utils/
+// |   |– _variables.scss   # Variables Sass
+// |   |– _functions.scss   # Funciones Sass
+// |   |– _mixins.scss      # Mixins Sass
+// |   |– _helpers.scss     # Clases & placeholders
+// |
+// |– vendors/
+// |   |– _bootstrap.scss   # Bootstrap
+// |   |– _jquery-ui.scss   # jQuery UI
+// |   …                    # Etc.
+// |
+// |

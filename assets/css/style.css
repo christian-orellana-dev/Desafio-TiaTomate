@@ -1,0 +1,43 @@
+body {
+  padding: 0 250px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.nav {
+  height: 50px;
+}
+
+.nav__logo {
+  width: 200px;
+  height: 50px;
+}
+
+.header {
+  background-color: #E56353;
+}
+
+.header__titulo {
+  width: 500px;
+  text-align: center;
+  margin: 0px auto;
+  padding-top: 15%;
+  line-height: 0px;
+}
+
+.header__titulo-claro h3 {
+  color: #FAFAFA;
+  font-size: 50px;
+  font-weight: 200;
+}
+
+.header__titulo-oscuro h3 {
+  color: #fff;
+  font-size: 50px;
+  font-weight: 700;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,100 @@
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+.nav {
+  height: 75px;
+}
+
+.nav__logo {
+  width: 300px;
+  padding-top: 20px;
+  padding-left: 100px;
+}
+
+.header__titulo {
+  background-color: #E56353;
+  width: auto;
+  text-align: center;
+  margin: 0px auto;
+  padding: 15% 25% 15% 26%;
+  line-height: 1;
+}
+.header__titulo-claro h2 {
+  color: #FAFAFA;
+  font-size: 70px;
+  font-weight: 200;
+}
+.header__titulo-oscuro h2 {
+  color: #fff;
+  font-size: 70px;
+  font-weight: 700;
+}
+.header__caracteristicas {
+  background-color: #91918D;
+  width: auto;
+  text-align: center;
+}
+.header__caracteristicas__contenido {
+  padding: 6% 12% 5% 14%;
+}
+.header__caracteristicas__contenido__texto h4 {
+  color: #fff;
+  padding: 3% 14% 3% 15%;
+  text-align: center;
+  font-size: 38px;
+  font-weight: 700;
+}
+.header__caracteristicas__contenido__texto p {
+  color: #fff;
+  padding: 1% 20% 1% 20%;
+  font-size: 15px;
+  text-align: left;
+}
+.header__origen {
+  background-color: #FAFAFA;
+  width: auto;
+  text-align: center;
+}
+.header__origen__contenido {
+  padding: 6% 12% 10% 14%;
+}
+.header__origen__contenido__texto h4 {
+  color: #686963;
+  padding: 0% 14% 1% 15%;
+  text-align: center;
+  font-size: 38px;
+  font-weight: 700;
+}
+.header__origen__contenido__texto p {
+  color: #91918D;
+  padding: 1% 25% 1% 25%;
+  font-size: 15px;
+  text-align: left;
+}
+
+.nosotros_header {
+  height: 250px;
+  background-color: #E56353;
+  color: #fff;
+}
+.nosotros_header__logo {
+  padding-top: 80px;
+  text-align: center;
+  font-size: 70px;
+  font-weight: 700;
+}
+
+/*# sourceMappingURL=main.css.map */
